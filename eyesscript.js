@@ -4,7 +4,7 @@ console.log(title.innerHTML);
 
 title.innerHTML = "Lichtschalter"; 
 
-
+// test comment for git
 
 function lightSwitch() {
     let body =  document.getElementsByTagName('body')[0];
