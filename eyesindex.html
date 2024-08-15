@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Grundlagen</title>
+</head>
+<body>
+    <h1 id="website_title">Der Titel der Webseite</h1>
+    <button id="light" onclick="lightSwitch()">Hier klicken!</button>
+    <div id="test-div"></div>
+    
+    <img id="eyes" src="scared-eyes.png" class="d-none" alt="">
+
+<style>
+    .light {
+        background-color: black;
+    }
+
+    .d-none {
+        display: none; 
+    }
+
+    #eyes {
+        position: absolute; 
+        bottom: 50%;
+        right: 50%; 
+        height: 100px;
+        width: 100px; 
+    }
+
+</style>
+</body>
+<script src="eyesscript.js"></script>
+</html>
